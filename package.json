@@ -1,0 +1,33 @@
+{
+  "name": "hubot-yigeAi",
+  "version": "1.0.0",
+
+  "author": "",
+
+  "keywords": [
+    "yigeai",
+    "hubot"
+  ],
+
+  "description": "YigeAi adapter for Hubot",
+
+  "peerDependencies": {
+    "hubot": ">=2.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  },
+  "dependencies": {
+    "request": "*",
+    "log": ">= 1.4.0",
+    "js-yaml" : ">= 3.0.0"
+  },
+
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm":  ">= 1.1.x"
+  },
+
+  "main": "./src/hubot-yigeai.coffee"
+
+}
